@@ -1,9 +1,4 @@
-Writeup: Cascade (HackTheBox)
-
-
-
 <img src='assets/box.png' alt="Cascade">
-
 
 Informations de la Cible
 
