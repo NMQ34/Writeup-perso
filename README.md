@@ -1,5 +1,3 @@
-Mon Lab de Writeups
-
 Bienvenue sur mon dépôt personnel de writeups.
 
 Ce repo centralise mes notes, mes méthodologies et mes résolutions de machines.
