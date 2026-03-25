@@ -1,4 +1,4 @@
-<img src='assets/box.png' alt="Reverse-Engineering">
+<img src='assets/box.png' alt="Reverse-Engineering" width="200">
 
 Analyse de binaire : Reverse Engineering avec Ghidra
 
