@@ -60,6 +60,19 @@ $$K = r_{\text{STA}} \times (Element_{\text{AP}} + Scalar_{\text{AP}} \times PWE
 
 Conformément aux spécifications de la norme IEEE Std 802.11, l'abscisse du point $K$ ($val_K$) subit une expansion pseudo-aléatoire via SHA256-PRF pour générer un bloc de 64 octets. Les 32 derniers octets constituent la clé maîtresse de paire (PMK).
 
+> [!TIP]
+> **Recommandation** : Il est conseillé d'isoler l'exécution dans un environnement virtuel Python pour éviter tout conflit avec les dépendances globales :
+> 
+> ```bash
+> # Création et activation de l'environnement virtuel
+> python3 -m venv venv
+> source venv/bin/activate
+> 
+> # Installation de la bibliothèque de courbes elliptiques
+> pip install --upgrade pip
+> pip install fastecdsa
+> ```
+
 ```python
 import hashlib
 import hmac
